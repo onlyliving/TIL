@@ -7,7 +7,12 @@
 ## Category
 
 -   [Python](#python)
+-   [Github](#github)
 
 ## Python
 
 -   [Streamlit-파이썬 데이터 대시보드 라이브러리](./python/Streamlit-파이썬-데이터-대시보드-라이브러리.md)
+
+## Github
+
+-   [Actions-자동화](./github/Actions-자동화.md)
