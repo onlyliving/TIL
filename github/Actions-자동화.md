@@ -17,6 +17,8 @@
 
 #### `cron` : 주기적 실행을 위한 스케줄링
 
+> 시간대 기준 : UTC (한국 표준시는 UTC보다 9시간 빠른 표준시간. UTC + 09:00)
+
 -   [Github Docs](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#onschedule)
 -   [The quick and simple editor for cron schedule expressions](https://crontab.guru/)
 
@@ -31,7 +33,7 @@ on:
 ```
 [minute] [hour] [day] [month] [week]
 
-e.g.
+e.g. (UTC 기준)
 
 0 9 1 * *
 	-> 매월 1일 오전 9시
