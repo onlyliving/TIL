@@ -8,6 +8,7 @@
 
 -   [Python](#python)
 -   [Github](#github)
+-   [Server](#server)
 
 ## Python
 
@@ -15,4 +16,8 @@
 
 ## Github
 
--   [Actions-자동화](./github/Actions-자동화.md)
+-   [자동화-Actions](./github/Actions-자동화.md)
+
+## Server
+
+-   [보안-fail2ban](./server/fail2ban.md)
