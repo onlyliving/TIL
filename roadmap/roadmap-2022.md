@@ -1,8 +1,8 @@
-# Loadmap in 2022
+# Roadmap in 2022
 
 -   All Roadmaps :https://github.com/kamranahmedse/developer-roadmap
 
-## Frontend Loadmap
+## Frontend Roadmap
 
 -   link : https://roadmap.sh/frontend
 

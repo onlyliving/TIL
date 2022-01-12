@@ -6,15 +6,15 @@
 
 ## Category
 
--   [Frontend Loadmap](#Frontend-Loadmap)
+-   [Frontend Roadmap](#Frontend-Roadmap)
 -   [Python](#python)
 -   [Github](#github)
 -   [Server](#server)
 -   [API](#api)
 
-## Frontend-Loadmap
+## Frontend-Roadmap
 
--   [2022-loadmap](./loadmap/loadmap-2022.md)
+-   [2022-roadmap](./roadmap/roadmap-2022.md)
 
 ## Python
 
