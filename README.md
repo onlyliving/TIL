@@ -18,6 +18,7 @@
 
 ## Python
 
+-   [Python](./python/Study-python.md)
 -   [Streamlit-파이썬 데이터 대시보드 라이브러리](./python/Streamlit-파이썬-데이터-대시보드-라이브러리.md)
 
 ## Github
