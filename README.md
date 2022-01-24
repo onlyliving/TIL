@@ -25,6 +25,7 @@
 ## Github
 
 -   [자동화-Actions](./github/Actions-자동화.md)
+-   [git-명령어](./github/git-명령어.md)
 
 ## Server
 
