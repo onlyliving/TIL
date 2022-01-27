@@ -10,19 +10,19 @@
 
 1. react native cli 설치
 
-```
+```bash
 $ npm install -g react-native-cli
 ```
 
 2. react native cli 프로젝트 생성
 
-```
+```bash
 $ npx react-native init {프로젝트명}
 ```
 
 3. 실행
 
-```
+```bash
 # 위에서 생성한 프로젝트로 접속
 $ cd { 프로젝트명 }
 
@@ -44,7 +44,7 @@ $ npm run ios
 
 -   node version >= 12
 
-```
+```bash
 $ brew install node
 $ brew install watchman
 ```
@@ -53,7 +53,7 @@ $ brew install watchman
 
 -   JDK version >= 11
 
-```
+```bash
 $ brew install --cask adoptopenjdk/openjdk/adoptopenjdk11
 ```
 
@@ -72,7 +72,7 @@ $ brew install --cask adoptopenjdk/openjdk/adoptopenjdk11
                 - section : Install the Android SDK, Configure the ANDROID_HOME environment variable)
 5. 실행
 
-```
+```bash
 $ npm run android
 ```
 
@@ -80,7 +80,7 @@ $ npm run android
 
 1. web 환경에 필요한 npm modules 설치
 
-```
+```bash
 $ npm install --save react-dom
 $ npm install --save-dev @babel/core babel-loader @babel/preset-react
 $ npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin
@@ -199,7 +199,7 @@ export default App;
 
 7. 실행
 
-```
+```bash
 $ npm run start-react
 ```
 
