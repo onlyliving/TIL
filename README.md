@@ -43,6 +43,7 @@
 
 ## React native
 
+-   [typeScript](./react-native/typeScript.md)
 -   react-native-web
 
     -   [설치 및 실행](./react-native/react-native-web/setting.md)
@@ -50,3 +51,8 @@
     -   [하나의 코드로 3개의 플랫폼에 화면 출력](./react-native/react-native-web/basic-code.md)
 
     -   [React Native Component](./react-native/react-native-web/component.md)
+
+    -   [프로젝트 폴더 구조](./react-native/react-native-web/structure.md)
+
+    -   [styled-components](./react-native/styled-components.md)
+        -   [RN custom 폰트 적용](./react-native/font.md)

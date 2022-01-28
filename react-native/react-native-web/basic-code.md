@@ -42,7 +42,7 @@ import App from "./App";
 
 3. 실행
 
-```
+```bash
 # web 실행
 $ npm run start-react
 
@@ -51,9 +51,6 @@ $ npm run ios
 
 # android 실행
 $ npm run android
-
-# 명령어 한번에..
-$ npm run start-react && npm run ios && npm run android
 ```
 
 ---
@@ -64,7 +61,7 @@ $ npm run start-react && npm run ios && npm run android
 -   임시 해결 : android debug bridge server restart
 -   참고 링크 : https://github.com/facebook/react-native/issues/27917
 
-```
+```bash
 $ adb kill-server
 $ adb start-server
 $ npx react-native run-android --no-jetifier
