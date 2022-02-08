@@ -114,17 +114,20 @@ $ sudo apt purge --auto-remove fail2ban*
 ## fail2ban-설정
 
 -   path : `/etc/fail2ban/`
--   `/etc/fail2ban/jail.conf` 파일은 업데이트 시 초기화되므로, ‘/etc/fail2ban/jail.d/\*.conf’ 또는 ‘/etc/fail2ban/jail.local’ 파일 생성 후 설정하는 것을 추천
--   설정 파일: `jail.conf` 파일에 바로 설정 가능. 패키지 업데이트 등이 진행되면 설정이 초기화될 수 있음. 기본 설정은 그대로 두고, 개별 설정을 부가적으로 적용하는 방법을 설정.
-    -   기본 설정 파일 : `jail.conf`
-    -   개별 설정을 부가적으로 적용할 파일 : `jail.local`
+-   /etc/fail2ban/`jail.conf` 파일은 업데이트 시 초기화되므로, /etc/fail2ban/`jail.local` 파일 생성 후 설정하는 것을 추천
 
-```
+```bash
+# jail.conf 파일 복사해서 jail.local 이름으로 파일 만듦.
 $ cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+
+# 수정할 파일 열기
 $ sudo vi /etc/fail2ban/jail.local
+
+# jail.local 파일 설정에서, enabled: true로 활성화시킴
+enabled: true
 ```
 
-**`vi jail.local`**
+**`jail.local`**
 
 -   dovecot이나 postfix 처럼 기본 제공되는 filter에서 해당되는 서비스를 활성화 시켜줌.
 -   sshd는 필수적으로 적용
