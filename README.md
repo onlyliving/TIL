@@ -50,7 +50,7 @@
 
     -   [하나의 코드로 3개의 플랫폼에 화면 출력](./react-native/react-native-web/basic-code.md)
 
-    -   [React Native Component](./react-native/react-native-web/component.md)
+    -   [React Native Components](./react-native/react-native-web/components.md)
 
     -   [프로젝트 폴더 구조](./react-native/react-native-web/structure.md)
 
