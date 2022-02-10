@@ -88,12 +88,22 @@
     -   터치 시 opacity가 0에서 1로 변하는 효과.
     -   `TouchableWithoutFeedback`은 피드백 없는 터치요소에 사용됨.
 
--   목록 표시
+-   List Views
+
     -   `<FlatList>` 또는 `<SectionList>`
+    -   단순 나열이면 `FlatList`, 제목과 내용 세션으로 분리되어야 하면 `SectionList`
     -   `<FlatList>` : 시간이 지남에 따라 항목 수가 변경될 수 있는 긴 데이터 목록에 적합. 모든 요소가 한 번에 표시되지 않고 현재 화면에 표시되는 요소만 렌더링 함.
-        -   `<FlatList>` 속성 : `data`, `renderItem`
+
+        -   **[Required]** Props
             -   `data` : 목록에 대한 정보의 소스
-            -   `renderItem` : 소스에서 하나의 항목을 가져오고 렌더링할 형식이 지정된 구성 요소를 반환.
+            -   `renderItem({ item, index, separators });` : 소스에서 하나의 항목을 가져오고 렌더링할 형식이 지정된 구성 요소를 반환.
+
+    -   `<SectionList>` : 섹션화된 목록을 렌더링.
+        -   props
+            -   `sections`
+            -   `renderItem`
+            -   `renderSectionHeader`
+            -   `keyExtractor`
 
 ### Text Props
 
