@@ -56,3 +56,4 @@
 
     -   [styled-components](./react-native/styled-components.md)
         -   [RN custom 폰트 적용](./react-native/font.md)
+        -   [RN Platform module](./react-native/platform-module.md)
