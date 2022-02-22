@@ -1,8 +1,11 @@
 # Platform module
 
--   link : https://reactnative.dev/docs/platform-specific-code
+-   docs : https://reactnative.dev/docs/platform
+-   platform-specific-code : https://reactnative.dev/docs/platform-specific-code
 
 ### `Platform.OS`
+
+-   returns string value : `android`, `ios`
 
 ```js
 // e.g.
@@ -13,9 +16,9 @@ const styles = StylesSheet.create({
 });
 ```
 
-### `Platform.Select`
+### `Platform.Select(config: object): any`
 
--   values : 'ios' | 'android' | 'native' | 'default'
+-   config(object) parameter keys : 'ios' | 'android' | 'native' | 'default'
 
 ```js
 // e.g.

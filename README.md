@@ -43,8 +43,12 @@
 
 ## React native
 
--   [typeScript](./react-native/typeScript.md)
--   react-native-web
+-   [TypeScript](./react-native/typeScript.md)
+-   RN APIs
+    -   [Platform module](./react-native/platform-module.md)
+-   [RN Hooks](./react-native/hooks.md)
+
+-   React Native Web
 
     -   [설치 및 실행](./react-native/react-native-web/setting.md)
 
@@ -54,6 +58,6 @@
 
     -   [프로젝트 폴더 구조](./react-native/react-native-web/structure.md)
 
+-   Styles
     -   [styled-components](./react-native/styled-components.md)
-        -   [RN custom 폰트 적용](./react-native/font.md)
-        -   [RN Platform module](./react-native/platform-module.md)
+    -   [Custom Fonts](./react-native/font.md)
