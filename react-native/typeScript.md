@@ -1,6 +1,6 @@
 # TypeScript
 
-## React Native에서 TypeScript 사용하기
+## React Native에서 TypeScript 설치하기
 
 ### TypeScript에 필요한 라이브러리
 
@@ -55,6 +55,27 @@ $ npm install typescript @types/react @types/react-native --save-dev
     -   `void`(undefined를 리턴하거나 리턴 값이 없는 함수)
 
 ### 타입 적용 예시
+
+#### 함수 컴포넌트에서 사용
+
+```ts
+import React from "react";
+import type { FC } from "react"; // type { FC } -> FunctionComponent 타입
+import { Text } from "react-native";
+import * as D from "../data";
+
+export type PersonProps = {
+    person: D.IPerson;
+};
+
+const Person: FC<PersonProps> = ({ person }) => {
+    return <Text>{JSON.stringify(person, null, 2)}</Text>;
+};
+
+export default Person;
+```
+
+#### 기타
 
 ```ts
 /*

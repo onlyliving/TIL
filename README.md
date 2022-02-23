@@ -43,21 +43,34 @@
 
 ## React native
 
--   [TypeScript](./react-native/typeScript.md)
--   RN APIs
+-   [Core Components](./react-native/core-components.md)
+
+    -   react native에서 제공하는 컴포넌트. 화면에 어떤 내용을 렌더링해야 할 때 사용.
+
+-   User Component
+
+    -   사용자가 직접 만드는 컴포넌트. 코어 컴포넌트를 화면에 렌터링 + 유저 이벤트 제공 (화면 터치, 텍스트 입력 등)
+
+        -   class component
+            -   Component 클래스 상속, render 메서드 구현 등..
+        -   function component + react hook
+            -   단순히 JSX 구문 반환
+
+-   [API](./react-native/api.md)
+
+    -   기기의 하드웨어나 운영체제가 제공하는 기능이 필요할 때 사용.
     -   [Platform module](./react-native/platform-module.md)
--   [RN Hooks](./react-native/hooks.md)
+
+-   [TypeScript](./react-native/typeScript.md)
+-   [Hooks](./react-native/hooks.md)
 
 -   React Native Web
 
     -   [설치 및 실행](./react-native/react-native-web/setting.md)
-
     -   [하나의 코드로 3개의 플랫폼에 화면 출력](./react-native/react-native-web/basic-code.md)
-
-    -   [React Native Components](./react-native/react-native-web/components.md)
-
     -   [프로젝트 폴더 구조](./react-native/react-native-web/structure.md)
 
--   Styles
+-   [Style](./react-native/style.md)
     -   [styled-components](./react-native/styled-components.md)
     -   [Custom Fonts](./react-native/font.md)
+    -   [UI 라이브러리](./react-native/ui-library.md)

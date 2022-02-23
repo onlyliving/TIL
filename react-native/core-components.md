@@ -1,4 +1,4 @@
-# React Native Components
+# Core Components
 
 -   core components : https://reactnative.dev/docs/components-and-apis
 
@@ -50,10 +50,44 @@
     ```
 
     -   기본 속성
+
+        -   multiline
         -   onChangeText
+
+            -   텍스트가 입력될 때 onChangeText 이벤트 처리기 실행함.
+
+            ```js
+            /**
+                함수 시그니처 : 함수 선언문에서 함수 이름만 제외한 부분을 말함. 함수 타입(함수 시그니처)
+                onChangeText(text: string) => void
+            **/
+
+            import React from "react";
+            import { TextInput } from "react-native";
+
+            export default function App() {
+                return (
+                    <>
+                        <TextInput
+                            placeholder="enter your name"
+                            onChangeText={(text: string) => console.log(text)}
+                            onFocus={() => console.log("onFocus")}
+                            onBlur={() => console.log("onBlur")}
+                            onEndEditing={() => console.log("onEndEditing")}
+                        />
+                    </>
+                );
+            }
+            ```
+
         -   onSubmitEditing
         -   onFocus
-        -   multiline
+            -   텍스트를 입력할 수 있는 상태(포커스를 가진 상태)가 되면 onFocus 이벤트 호출.
+        -   onBlur
+            -   텍스트를 입력할 수 없는 상태가 되면 onBlur 이벤트 호출.
+        -   onEndEditing
+            -   텍스트 입력이 모두 끝나면 onEndEditing 이벤트 호출.
+        -   자식 요소를 가지지 못함.
         -   [속성 더보기](https://reactnative.dev/docs/textinput#props)
 
 -   `<Image>`
@@ -78,8 +112,13 @@
 
 -   `<Button></Button>`
 
+    -   필수 속성 : `title`
     -   HTML에서의 button 태그와는 다르게 title 속성으로 버튼에 표시할 텍스트를 정함.
     -   style로 font-size나 크기 등을 변경할 수 없으며, color 속성으로 버튼 자체 색을 정하는 것 외에는 커스텀 되지 않음.
+
+    ```jsx
+        <Button title="home" color="blue" onPress={() => console.log('home pressed.')}>
+    ```
 
 -   `<TouchableOpacity></TouchableOpacity>`
 
@@ -87,6 +126,8 @@
     -   flex 요소
     -   터치 시 opacity가 0에서 1로 변하는 효과.
     -   `TouchableWithoutFeedback`은 피드백 없는 터치요소에 사용됨.
+    -   `TouchableHighlight` 컴포넌트도 있음.
+        -   `TouchableOpacity` 컴포넌트와 함께 나타나는 특징 : 단 한개의 자식 컴포넌트만 올 수 있음.
 
 -   List Views
 
