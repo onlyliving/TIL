@@ -8,6 +8,7 @@
 ## Category
 
 -   [Frontend Roadmap](#Frontend-Roadmap)
+- [Javascript](#javascript)
 -   [Python](#python)
 -   [Github](#github)
 -   [Server](#server)
@@ -18,6 +19,10 @@
 ## Frontend-Roadmap
 
 -   [2022-roadmap](./roadmap/roadmap-2022.md)
+
+## Javascript
+- [화살표 함수](./javascript/arrow-function.md)
+- [얕은 복사, 깊은 복사](./javascript/shallowCopy%26DeepCopy.md)
 
 ## Python
 

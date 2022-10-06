@@ -90,12 +90,25 @@
         -   자식 요소를 가지지 못함.
         -   [속성 더보기](https://reactnative.dev/docs/textinput#props)
 
--   `<Image>`
+-   **이미지 관련 컴포넌트**
 
-    -   다양한 유형의 이미지를 표시하기 위한 컴포넌트
-        -   Android view : `<ImageView>`
-        -   iOS view : `<UIImageView>`
-        -   Web : `<img>`
+    -   반드시 width, height 스타일 속성값을 설정해야 함.
+        -   `{width: '100%', height: '100%'}`로 설정한다면 `{flex: 1}`을 사용하여 값을 간결하게 설정할 수 있음
+    -   source 속성
+        -   내부 이미지 파일 : `source={require('./root/img.jpg')}`
+        -   외부 이미지 파일 : `source={{uri: '이미지파일주소'}}`
+    -   `<Image>`
+
+        -   다양한 유형의 이미지를 표시하기 위한 컴포넌트
+            -   Android view : `<ImageView>`
+            -   iOS view : `<UIImageView>`
+            -   Web : `<img>`
+
+    -   `<ImageBackground>`
+        ```JSX
+        <ImageBackground style={{flex: 1}} source={require('./src/assets/images/bg.jpg')} />
+        ```
+        -   ImageBackground 컴포넌트는 이름에 'View'가 없지만 'View'자가 들어간 컴포넌트처럼 자식 컴포넌트를 가질 수 있음.
 
 -   `<ScrollView>`
 
